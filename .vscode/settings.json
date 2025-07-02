@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.associations": {
+    "*.jsx": "javascriptreact"
+  },
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)",
+    ["clsx\$$([^)]*)\$$", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["classnames\$$([^)]*)\$$", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["cn\$$([^)]*)\$$", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ]
+}
